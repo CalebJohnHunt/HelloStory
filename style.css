@@ -1,0 +1,91 @@
+html, body {
+    background-color: #110710;
+    margin: 0;
+    padding: 0;
+    color: #eee;
+}
+
+.header-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 45px;
+}
+
+.brand-hello {
+    color:hotpink;
+}
+
+.brand-story {
+    color: #228cdb;
+}
+
+.subheader-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+}
+
+.instructions {
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.story-block {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+
+    max-width: 300px;
+    border: darkgrey solid;
+    border-radius: 10px;
+
+    padding: 5px;
+    
+    text-align: center;
+}
+
+.story-title {
+    color: hotpink;
+    font-size: 25px;
+}
+
+.story-author {
+    font-size: 14px;
+    color: #228cdb;
+}
+
+.story-content {
+    /* color: #978a9c; */
+    /* color: #ddd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
