@@ -95,6 +95,10 @@ html, body {
     font-size: 35px;
 }
 
+.explore-info { 
+    font-size: 25px;
+}
+
 .explore-title {
     color: hotpink;
 }
