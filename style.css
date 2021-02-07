@@ -1,8 +1,10 @@
+
+
 html, body {
-    background-color: #110710;
+    background-color: #110710 !important;
     margin: 0;
     padding: 0;
-    color: #eee;
+    color: #eee !important;
 }
 
 .header-container {
@@ -17,6 +19,22 @@ html, body {
     align-items: center;
     flex-direction: row;
     font-size: 45px;
+}
+
+.brand-pink-text {
+    color:hotpink;
+}
+
+.brand-blue-text {
+    color: #228cdb;
+}
+
+.brand-white-text {
+    color: #eee;
+}
+
+.active {
+    color: #eee !important;
 }
 
 .brand-hello {
@@ -42,17 +60,16 @@ html, body {
     font-size: 20px;
 }
 
-.content {
+.explore_content {
     display: flex;
     flex-direction: column;
-    margin: 0 150px;
+    align-items: center;
+    margin: 20px 0px;
+    /* max-width: 70%; */
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 30px 0;
+.content {
+    max-width: 70%;
 }
 
 .story-block {
@@ -61,12 +78,11 @@ html, body {
     align-items: center;
     flex-direction: column;
 
-
-    max-width: 300px;
     border: darkgrey solid;
     border-radius: 10px;
 
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
     
     text-align: center;
 }
@@ -88,4 +104,28 @@ html, body {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
+}
+
+.navbar-brand {
+    font-size: 35px !important;
+    margin-left: 15px;
+}
+
+.feature-info {
+    font-size: 35px;
+}
+
+.explore-title {
+    color: hotpink;
+}
+
+.explore-author {
+    color: #228cdb
+}
+
+.explore-row {
+    display: flex;
+    align-items: center;
+    border: darkgrey solid 1px;
+    padding: 10px 2px;
 }
