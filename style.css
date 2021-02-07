@@ -38,7 +38,6 @@ html, body {
 
 .active {
     color: #eee !important;
-    /* color: #4CEAAD !important; */
 }
 
 .explore_content {
@@ -46,7 +45,6 @@ html, body {
     flex-direction: column;
     align-items: center;
     margin: 20px 0px;
-    /* max-width: 70%; */
 }
 
 .content {
@@ -85,7 +83,6 @@ html, body {
 }
 
 .story-img {
-    /* max-width: 100%; */
     max-height: 200px;
 }
 
@@ -122,13 +119,11 @@ html, body {
 }
 
 :not(.navbar) a{
-    /* color: #2CDA9D; */
     color: hotpink;
     text-decoration: none;
 }
 
 :not(.navbar) a:hover{
-    /* color: #2CDA9D; */
     color: #228cdb;
     text-decoration: none;
 }
@@ -139,12 +134,6 @@ html, body {
     align-items: center;
     flex-direction: column;
 }
-/* 
-.about-welcome {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .about-welcome img {
     max-width:40rem;
