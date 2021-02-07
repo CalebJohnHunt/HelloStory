@@ -33,8 +33,10 @@ html, body {
     color: #eee;
 }
 
+
 .active {
     color: #eee !important;
+    /* color: #4CEAAD !important; */
 }
 
 .explore_content {
@@ -118,7 +120,14 @@ html, body {
 }
 
 :not(.navbar) a{
-    color: #2CDA9D;
+    /* color: #2CDA9D; */
+    color: hotpink;
+    text-decoration: none;
+}
+
+:not(.navbar) a:hover{
+    /* color: #2CDA9D; */
+    color: #228cdb;
     text-decoration: none;
 }
 
