@@ -91,8 +91,13 @@ html, body {
     margin-left: 15px;
 }
 
+.nav-item {
+    padding-left: 15px;
+}
+
 .feature-info {
     font-size: 35px;
+    color: white;
 }
 
 .explore-info { 
@@ -149,7 +154,7 @@ html, body {
 }
 
 .about-Q {
-    color: #228cdb;
+    color: white;
     font-size: 30px;
 }
 
